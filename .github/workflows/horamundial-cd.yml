@@ -28,7 +28,7 @@ jobs:
         tag: ${{ github.sha }}
         registry: docker.io
         dockerfile: Dockerfile
-        username: ${{ github.actor }}
+        username: mnustes
         password: ${{ secrets.DOCKER_PASSWORD }}
         
       
