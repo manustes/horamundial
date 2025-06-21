@@ -1,0 +1,36 @@
+# Ignorar archivos de Git
+.git
+.gitignore
+
+# Ignorar archivos de Maven
+target/
+
+# Ignorar archivos de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+logs/
+
+# Ignorar archivos de configuración local
+*.properties
+*.yml
+!src/main/resources/application.yml
+
+# Ignorar archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignorar archivos de proyecto específicos
+mvnw
+mvnw.cmd
+pom.xml.versionsBackup
