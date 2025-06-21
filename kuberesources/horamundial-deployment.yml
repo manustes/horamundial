@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: horamundial
+  labels:
+    app: horamundial
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: horamundial
+  template:
+    metadata:
+      labels:
+        app: horamundial
+    spec:
+      containers:
+      - name: horamundial
+        image: mnustes/horamundial:0.0.3
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: "prod"
+        ports:
+        - containerPort: 8080
+        startupProbe:
+          httpGet:
+            path: /ping
+            port: 8080
+          initialDelaySeconds: 25
+        readinessProbe:
+          httpGet:
+            path: /ping
+            port: 8080
+          initialDelaySeconds: 25
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          
+        
