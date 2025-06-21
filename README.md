@@ -1,6 +1,6 @@
 # Hora Mundial API
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/andresfh/horamundial)](https://hub.docker.com/r/andresfh/horamundial)
+[![Docker Pulls](https://img.shields.io/docker/pulls/andresfh/horamundial)](https://hub.docker.com/r/mnustes/horamundial)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Java 17](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -99,7 +99,7 @@ horamundial/
 3. **Verificar el despliegue**
    ```bash
    curl http://localhost:8080/ping
-   # Deberías ver: {"status":"UP"}
+   # Deberías ver: {"status":"pong"}
    ```
 
 ## 📚 Documentación de la API
@@ -161,4 +161,4 @@ Este proyecto está bajo la [Licencia Apache 2.0](https://www.apache.org/license
 
 ---
 
-Desarrollado con ❤️ por [Tu Nombre] - [@tuusuario](https://github.com/tuusuario)
+Desarrollado con ❤️ por [manustes]
