@@ -1,6 +1,6 @@
 # Hora Mundial API
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/andresfh/horamundial)](https://hub.docker.com/r/mnustes/horamundial)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mnustes/horamundial)](https://hub.docker.com/r/mnustes/horamundial)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Java 17](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
