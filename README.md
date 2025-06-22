@@ -99,7 +99,7 @@ horamundial/
 3. **Verificar el despliegue**
    ```bash
    curl http://localhost:8080/ping
-   # Deberías ver: {"status":"pong"}
+   # Deberías ver: "pong"
    ```
 
 ## 📚 Documentación de la API
