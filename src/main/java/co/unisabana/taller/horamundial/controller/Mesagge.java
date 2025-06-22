@@ -12,7 +12,7 @@ public class Mesagge {
 
     @GetMapping("/message")
     public ResponseEntity<String> message() {
-        return ResponseEntity.ok("hola a todos");
+        return ResponseEntity.ok("hola a todos - mucho gusto");
     }
  
 }
