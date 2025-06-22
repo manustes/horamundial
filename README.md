@@ -127,6 +127,7 @@ La aplicación incluye documentación interactiva con Swagger UI:
 | `SPRING_PROFILES_ACTIVE` | Perfiles activos | `dev` |
 | `WORLDTIME_API_URL` | URL de la API externa | `http://worldtimeapi.org/api` |
 | `HTTP_CLIENT_TIMEOUT` | Timeout para peticiones HTTP | `5000` (ms) |
+| `SPRING_APPLICATION_JSON` | Configuración de la aplicación | `{} ` |
 
 ### Perfiles de Spring
 
