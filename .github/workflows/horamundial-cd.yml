@@ -30,6 +30,14 @@ jobs:
         dockerfile: Dockerfile
         username: mnustes
         password: ${{ secrets.DOCKER_PASSWORD }}
+    - name: Trigger CD workflow
+      uses: peter-evans/repository-dispatch@v2
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      with:
+        token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        repository: manustes/horamundial-gitops
+        event-type: app-update
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
         
       
         
