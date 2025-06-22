@@ -25,7 +25,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push-action@v6
       with:
         image: mnustes/horamundial
-        tag: ${{ github.sha }}
+        tags: ${{ github.sha }}, latest
         registry: docker.io
         dockerfile: Dockerfile
         username: mnustes
